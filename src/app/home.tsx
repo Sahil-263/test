@@ -9,7 +9,6 @@ import {
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
-import Dashboard from "./dashboard";
 
 export default function SidebarDemo() {
   const links = [
@@ -57,7 +56,6 @@ export default function SidebarDemo() {
         </SidebarBody>
       </Sidebar>
       <div className="flex-1 overflow-y-auto">
-        <Dashboard />
       </div>
     </div>
   );
